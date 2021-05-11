@@ -15,18 +15,6 @@
     background-position: top 90% left -10%, top -10% left 0%, top 11% left 90% ,top 100% left 20%;
     margin-top: 50px;
 }
-.header-avatar{
-    width: 500px;
-}
-@media(max-width:1200px){
-    .container{
-        width: 992px;
-    }
-    .header-avaatar{
-        width: 350px;
-    }
-
-}
 .box{
     margin-top:100px;
 }
@@ -95,5 +83,4 @@ border-radius: 30px;
         position: absolute;
         top: 90%;
         left: 38%;
-    }
-}
+    }}
