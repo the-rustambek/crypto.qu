@@ -1,0 +1,88 @@
+.form-control{
+    width: 150px;
+}
+.navbar-brand__span{
+    color: #8955F6;
+}
+.header{
+    margin-top: 70px;
+    margin-bottom: 170px;
+}
+.header-picture{
+    background-image: url("/asssets/img/Bitcoin.png"),url("/asssets/img/BNB.png"),url("/asssets/img/Ethereum.png"),url("/asssets/img/Rectangle\ 50.png");
+    background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+    background-size: 300px,220px,180px,90%;
+    background-position: top 90% left -10%, top -10% left 0%, top 11% left 90% ,top 100% left 20%;
+    margin-top: 50px;
+    z-index: -1;
+}
+.box{
+    margin-top:100px;
+}
+.box-icon{
+    background-color: #F2ECFE;
+}
+.box-span{
+    color:#8955F6;
+}
+.aside-info{
+    margin-top: 120px;
+}
+.aside-span, .sidebar-span, .footer-span{
+    color: #8955F6;
+}
+.aside-title{
+    width: 420px;
+}
+.btn-group, .aside-button{
+    background-color: #dcdbe0;
+    color:#8955F6;
+}
+.aside-item{
+    background-color: white;
+    transition: 0.3s;
+    border-radius: 20px;
+}
+.aside-item:hover{
+    background: linear-gradient(157.89deg, rgba(161, 179, 223, 0.5625) 1.46%, rgba(152, 185, 217, 0.42) 24.95%, rgba(140, 191, 239, 0.48) 50.02%, rgba(185, 132, 189, 0.435) 78.22%, rgba(197, 124, 180, 0.555) 95.97%);
+}
+.aside-btn{
+    transition: 0.3s;
+}
+.aside-btn:hover{
+    background-color: black;
+    color: white;
+}
+.aside-button-1, .aside-button-2{
+    transition: 0.3s;
+}
+.aside-button-2:hover, .aside-button-1:hover{
+    background-color: white;
+}
+.sidebar-picture{
+    position: relative;
+}
+.sidebar-box{
+    position: absolute;
+    top: 90%;
+    left: 14%;
+    box-shadow: 0px 4px 40px rgba(78, 28, 95, 0.08);
+border-radius: 30px;
+}
+.sidebar-btn{
+    width: 200px;
+    background-color: white;
+}
+.footer{
+    margin-top: 250px;
+}
+@media(max-width:994px){
+    .container{
+        width: 780px;
+    }
+    .sidebar-box{
+        position: absolute;
+        top: 90%;
+        left: 38%;
+    }
+}
