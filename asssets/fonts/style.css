@@ -11,10 +11,21 @@
 .header-picture{
     background-image: url("/asssets/img/Bitcoin.png"),url("/asssets/img/BNB.png"),url("/asssets/img/Ethereum.png"),url("/asssets/img/Rectangle\ 50.png");
     background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
-    background-size: 300px,220px,180px,90%;
+    background-size: 300px,220px,180px,450px;
     background-position: top 90% left -10%, top -10% left 0%, top 11% left 90% ,top 100% left 20%;
     margin-top: 50px;
-    z-index: -1;
+}
+.header-avatar{
+    width: 500px;
+}
+@media(max-width:1200px){
+    .container{
+        width: 992px;
+    }
+    .header-avaatar{
+        width: 350px;
+    }
+
 }
 .box{
     margin-top:100px;
